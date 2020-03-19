@@ -11,6 +11,7 @@ import (
 
 func main() {
 	pool := newRedisPool()
+	log.Printf("starting worker...")
 	ticker := time.NewTicker(10 * time.Second)
 	for {
 		select {
@@ -22,7 +23,7 @@ func main() {
 				log.Printf("failed to get job, err: %s", err.Error())
 				continue
 			}
-			if job != "" {
+			if job != nil {
 				log.Printf("got job: %s", job)
 				continue
 			}
