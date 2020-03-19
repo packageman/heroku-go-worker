@@ -8,4 +8,4 @@ release:
   image: worker
 
 run:
-  worker: heroku-go
+  worker: heroku-go-worker
