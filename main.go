@@ -10,13 +10,7 @@ import (
 )
 
 func main() {
-	port := os.Getenv("PORT")
-
-	if port == "" {
-		log.Fatal("$PORT must be set")
-	}
 	pool := newRedisPool()
-
 	ticker := time.NewTicker(10 * time.Second)
 	for {
 		select {
