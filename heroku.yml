@@ -1,0 +1,11 @@
+build:
+  docker:
+    worker: Dockerfile
+
+release:
+  command:
+    - ls
+  image: worker
+
+run:
+  worker: heroku-go

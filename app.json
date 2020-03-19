@@ -1,0 +1,13 @@
+{
+  "name": "Start on Heroku: Go",
+  "description": "Go Getting Started Example App",
+  "keywords": [
+    "getting-started",
+    "go",
+    "sample",
+    "example"
+  ],
+  "website": "http://github.com/packageman/heroku-go-worker",
+  "repository": "http://github.com/packageman/heroku-go-worker",
+  "stack": "container"
+}

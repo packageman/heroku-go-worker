@@ -1,0 +1,6 @@
+# github.com/gomodule/redigo v2.0.0+incompatible
+github.com/gomodule/redigo/internal
+github.com/gomodule/redigo/redis
+# github.com/heroku/x v0.0.0-20171004170240-705849e307dd
+github.com/heroku/x/hmetrics
+github.com/heroku/x/hmetrics/onload
